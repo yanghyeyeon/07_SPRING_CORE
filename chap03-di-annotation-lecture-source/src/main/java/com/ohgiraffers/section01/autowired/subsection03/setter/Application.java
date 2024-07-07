@@ -26,5 +26,6 @@ public class Application {
         // 도서 번호로 검색 후 출력 확인
         System.out.println(bookService.searchBookBySequence(1));
         System.out.println(bookService.searchBookBySequence(2));
+        
     }
 }
