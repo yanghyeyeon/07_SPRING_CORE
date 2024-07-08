@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
+@ToString(callSuper = true)
 public class Bread extends Product{
 
     private LocalDate bakeDate;     //생산시간
